@@ -1,0 +1,45 @@
+.headingMain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background: #ffff;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 80px;
+}
+.coin-get{
+
+    border-style: solid;
+    position: static;
+   text-align: center;
+    border-radius: 5px;
+    border-color: black;
+    color: black;
+    padding: 15px 15px;
+    font-size: 16px;
+    cursor: pointer;
+   width: 280px;
+   height: 50px;
+   margin-bottom: 20px;
+transform: translate(950px,-60px);
+  
+  }
+  
+  .coin-get :active,.coin-get:hover {
+      color: white;
+      background-color: #7918f2 ;
+  }
+  
+  
+  .coin-text {
+      position: static;
+   transform: translateX(-450px);
+    font-size: 60px;
+    text-align: center;
+   
+   color: black;
+  }
