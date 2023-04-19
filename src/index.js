@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter ,Routes ,Route } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import App from './App';
-import App1 from './components/src1/App1'
+import ExT from './components/EXT/ExT';
 import CoinPage from './components/CoinPage';
 
 ReactDOM.render(
@@ -13,7 +13,7 @@ ReactDOM.render(
     <Routes>
 
      <Route  exact path='/' element={<App />}/>
-     <Route path='/exp' element={<App1 />}/>
+     <Route path='/exp' element={< ExT/>}/>
      <Route path='/coins/:id' element={<CoinPage />}/>
 
 </Routes>
