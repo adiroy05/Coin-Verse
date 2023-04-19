@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter ,Routes ,Route } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import App from './App';
-import ExT from './components/EXT/ExT';
+import ExT from './EXT/ExT';
 import CoinPage from './components/CoinPage';
 
 ReactDOM.render(
